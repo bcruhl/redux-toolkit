@@ -1,5 +1,7 @@
 # Redux Toolkit Example
 
+This implements the Acceptance Criteria defined in [SHAPE_UP.md](https://github.com/bcruhl/redux-toolkit/blob/main/SHAPE_UP.md)
+
 ## NOTE: To Build this project:
 There were some issues when trying to run this version of create-react-app against React v18/v17, and I had to revert to version 16.10.0 to get things building.
 After switching to that version, run `npm install`
