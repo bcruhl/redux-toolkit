@@ -1,16 +1,4 @@
-# Axle Payments Frontend Engineer Test Drive
-The purpose of this Test Drive is to give you insight into what it is like to work with Axle's engineering team. It also helps us to understand your work style a bit more. There are no trick questions or hidden agendas. The goal is to gain a mutual understanding of what it is like to work with each other.
-
-We hope that you enjoy working on this project as much as we enjoyed creating it. We look forward to pairing with you to discuss your implementation. Meanwhile, if you have any questions or require more clarity, feel free to reach out to your Axle Point of Contact.
-
-## Getting Started
-1. Review the Shape Up document that provides context on the features to be implemented [here](SHAPE_UP.md).
-2. Clone this repository.
-3. Implement the functionality described in the Shape Up document on a feature branch.
-4. Create a pull request against the main branch once the work is completed.
-5. Tag `gregmundy` as a reviewer on this PR.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Redux Toolkit Example
 
 ## NOTE: To Build this project:
 There were some issues when trying to run this version of create-react-app against React v18/v17, and I had to revert to version 16.10.0 to get things building.
