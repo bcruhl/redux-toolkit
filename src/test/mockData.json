@@ -1,0 +1,48 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "customerRequestDescription": "Increase Shawn\"s Trucking Credit Limit to $50,000",
+        "complete": false,
+        "assignee": "mny.hydry@example.com",
+        "assignedDate": "Tue Sep 06 2022 14:55:47 GMT-0500 (Central Daylight Time)"
+      },
+      {
+        "customerRequestDescription": "Change email address for primary contact on Sean\"s Carrier Service",
+        "complete": false,
+        "assignee": "gerald.marchand@example.com",
+        "assignedDate": "Tue Sep 06 2022 14:55:47 GMT-0500 (Central Daylight Time)"
+      }
+    ]
+  },
+  "employees": {
+    "loaded": true,
+    "employees": [
+      {
+        "name": "Minna Nelles",
+        "email": "minna.nelles@example.com",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/73.jpg"
+      },
+      {
+        "name": "Adam Johnson",
+        "email": "adam.johnson@example.com",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/39.jpg"
+      },
+      {
+        "name": "مانی حیدری",
+        "email": "mny.hydry@example.com",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/1.jpg"
+      },
+      {
+        "name": "Elisabete Lacroix",
+        "email": "elisabete.lacroix@example.com",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+      },
+      {
+        "name": "Gérald Marchand",
+        "email": "gerald.marchand@example.com",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/54.jpg"
+      }
+    ]
+  }
+}

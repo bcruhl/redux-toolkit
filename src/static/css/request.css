@@ -1,0 +1,71 @@
+@import "./variables.css";
+
+.ui {
+	&.feed {
+		overflow: auto;
+	    max-height: calc(100% - 20em);
+	    
+		& > .event {
+			border: 1px solid $requestBorderColor !important;
+			border-radius: 1em;
+			background-color: $requestBackgroundColor;
+			margin-bottom: 2em;
+			padding: 0.4em !important;
+
+			label {
+				width: 100%;
+
+				.request-item {
+					width:  80%;
+
+					input {
+						margin: 1rem 0.5rem 1rem 2rem;
+						transform : scale(1.4);
+					}
+
+				}
+			}
+
+			.label {
+				img {
+					border-radius: 0.4rem;
+				}
+			}
+
+			.text {
+				&.fulfilled {
+					.request-item {
+						text-decoration: line-through;
+						color: $requestFulfilledColor;
+					}
+				}
+			}
+
+			.date {
+				text-align: center;
+				font-size: 0.9rem;
+				margin-top: 0.5rem;
+			}
+		}
+	}
+
+	&.form {
+		.field {
+			text-align: center;
+
+			textarea {
+				border: 1px solid $requestBorderColor !important;
+				border-radius: 0;
+
+				&::placeholder {
+				    text-align: center;
+				    padding-top: 1em;
+				}
+			}
+
+			button {
+				margin-top: 2em;
+			}
+		}
+	}
+}
